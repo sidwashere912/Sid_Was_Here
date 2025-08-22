@@ -1,7 +1,5 @@
-import os
 import re
 import json
-import time
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -137,8 +135,6 @@ for p in properties:
     ])
 sheet.update('A1', [header] + rows)
 print("🎉 Done! Google Sheet updated successfully.")
-
-
 
 
 
